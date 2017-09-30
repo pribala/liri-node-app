@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pribala/liri-node-app/issues"
   },
-  "homepage": "https://github.com/pribala/liri-node-app#readme"
+  "homepage": "https://github.com/pribala/liri-node-app#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
 }
