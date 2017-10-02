@@ -4,6 +4,7 @@ var request = require("request");
 var Twitter = require('twitter');
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
+var fs = require("fs");
 
 var consumerKey = keys.twitterKeys.consumer_key;
 var consumerSecret = keys.twitterKeys.consumer_secret;
@@ -48,6 +49,7 @@ switch(action) {
 		}
 		break;	
 	case "do-what-it-says":
+		readData();
 		break;
 }
 
@@ -96,6 +98,10 @@ function myTweets(client) {
 }
 
 function spotifyThis(spotify, songName) {
+	if (songName.charAt(0) === '"' && songName.charAt(songName.length -1) === '"'){
+		songName = songName.substr(1,songName.length -2);
+	}
+	
 	spotify.search({ type: 'track', query: songName }, function(err, data) {
 		if (err) {
 	    	return console.log('Error occurred: ' + err);
@@ -115,6 +121,20 @@ function spotifyThis(spotify, songName) {
 	 		console.log("\n=======================================================\n")
  	});
 }
+
+function readData() {
+	fs.readFile("random.txt", "utf8", function(err,data){
+		if(err){
+			return console.log(err);
+		}
+		var dataArr = data.split(",");
+		var doThis = dataArr[0];
+		var name = dataArr[1];
+		if(doThis === "spotify-this-song"){
+			spotifyThis(spotify, name);
+		}
+	});
+}	
 
 
 
