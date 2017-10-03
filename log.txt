@@ -12,16 +12,16 @@ Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 
 ==============================================
 Last command executed
-node liri.js movie-this gone with the wind
+node liri.js movie-this armageddon
 
 ==============================================
-Title of the movie: Gone with the Wind
-The movie was released in: 1939
-IMDB Rating of the movie: 8.2
-Rotten Tomatoes Rating of the movie: 94%
-Country where the movie was produced: USA,Language of the movie: English
-Plot of the movie: A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods.
-Actors in the movie: Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes
+Title of the movie: Armageddon
+The movie was released in: 1998
+IMDB Rating of the movie: 6.6
+Rotten Tomatoes Rating of the movie: 39%
+Country where the movie was produced: USA,Language of the movie: English, Russian, Indonesian
+Plot of the movie: After discovering that an asteroid the size of Texas is going to impact Earth in less than a month, N.A.S.A. recruits a misfit team of deep core drillers to save the planet.
+Actors in the movie: Bruce Willis, Billy Bob Thornton, Ben Affleck, Liv Tyler
 
 ==============================================
 Last command executed

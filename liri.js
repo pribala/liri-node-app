@@ -5,6 +5,7 @@ var Twitter = require('twitter');
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 var fs = require("fs");
+const chalk = require('chalk');
 
 var consumerKey = keys.twitterKeys.consumer_key;
 var consumerSecret = keys.twitterKeys.consumer_secret;
@@ -63,29 +64,29 @@ function movieDetails(name){
 	request(queryUrl, function(error, response, body){
 		if (!error && response.statusCode === 200) {
 		    // Parse the body of the site and recover the movie details
-		    console.log("\n==============================================\n");
+		    console.log(chalk.red("\n==============================================\n"));
 		    logData += "\r\n==============================================\r\n";
-		    console.log("Title of the movie: " + JSON.parse(body).Title);
+		    console.log(chalk.red.bold("Title of the movie: ") + chalk.green.bold(JSON.parse(body).Title));
 		    logData += "Title of the movie: " + JSON.parse(body).Title+"\r\n";
-		    console.log("The movie was released in: " + JSON.parse(body).Year);
+		    console.log(chalk.red.bold("The movie was released in: ") + chalk.green.bold(JSON.parse(body).Year));
 		    logData += "The movie was released in: " + JSON.parse(body).Year+"\r\n";
-		    console.log("IMDB Rating of the movie: " + JSON.parse(body).imdbRating);
+		    console.log(chalk.red.bold("IMDB Rating of the movie: ") + chalk.green.bold(JSON.parse(body).imdbRating));
 		    logData += "IMDB Rating of the movie: " + JSON.parse(body).imdbRating+"\r\n";
 		    JSON.parse(body).Ratings.forEach(function(item){
 		    	if(item.Source === "Rotten Tomatoes"){
-		    		console.log("Rotten Tomatoes Rating of the movie: " + item.Value);
+		    		console.log(chalk.red.bold("Rotten Tomatoes Rating of the movie: ") + chalk.green.bold(item.Value));
 		    		logData += "Rotten Tomatoes Rating of the movie: " + item.Value+"\r\n";
 		    	}
 		    });
-		    console.log("Country where the movie was produced: " +JSON.parse(body).Country);
+		    console.log(chalk.red.bold("Country where the movie was produced: ") +chalk.green.bold(JSON.parse(body).Country));
 		    logData += "Country where the movie was produced: " +JSON.parse(body).Country+",";
-		    console.log("Language of the movie: " + JSON.parse(body).Language);
+		    console.log(chalk.red.bold("Language of the movie: ") + chalk.green.bold(JSON.parse(body).Language));
 		    logData += "Language of the movie: " + JSON.parse(body).Language+"\r\n";
-		    console.log("Plot of the movie: " +JSON.parse(body).Plot);
+		    console.log(chalk.red.bold("Plot of the movie: ") +chalk.green.bold(JSON.parse(body).Plot));
 		    logData += "Plot of the movie: " +JSON.parse(body).Plot+"\r\n";
-		    console.log("Actors in the movie: " + JSON.parse(body).Actors);
+		    console.log(chalk.red.bold("Actors in the movie: ") + chalk.green.bold(JSON.parse(body).Actors));
 		    logData += "Actors in the movie: " + JSON.parse(body).Actors+"\r\n";
-		    console.log("\n==============================================\n");
+		    console.log(chalk.red("\n==============================================\n"));
 		    logData += "\r\n==============================================\r\n";
 
 		    fs.appendFile("log.txt", logData, function(err) {
@@ -109,16 +110,16 @@ function myTweets(client) {
 	logData += "node liri.js my-tweets\r\n";
 	client.get('search/tweets', params,function(error, tweets, response){
 	  if (!error) {
-	  	console.log("\n=======================================================\n")
+	  	console.log(chalk.red("\n=======================================================\n"));
 	  	logData += "\r\n=======================================================\r\n";
-	  	console.log("My Tweets!\n");
+	  	console.log(chalk.red.bold("My Tweets!\n"));
 	    for(var i=0; i<tweets.statuses.length; i++){
-	       	console.log(tweets.statuses[i].text);
+	       	console.log(chalk.green.bold(tweets.statuses[i].text));
 	       	logData += tweets.statuses[i].text + "\r\n";
-	    	console.log(tweets.statuses[i].created_at+ "\n");
+	    	console.log(chalk.green.bold(tweets.statuses[i].created_at+ "\n"));
 	    	logData += tweets.statuses[i].created_at+ "\r\n";
 	    }
-	    console.log("\n=======================================================\n")
+	    console.log(chalk.red("\n=======================================================\n"));
 	    logData += "\r\n=======================================================\r\n";
 	    fs.appendFile("log.txt", logData, function(err) {
 				// If an error was experienced we say it.
@@ -140,27 +141,27 @@ function spotifyThis(spotify, songName) {
 	logData += "node liri.js spotify-this-song "+ songName +"\r\n";
 	spotify.search({ type: 'track', query: songName }, function(err, data) {
 		if (err) {
-	    	return console.log('Error occurred: ' + err);
+	    	return console.log(chalk.red.bold('Error occurred: ' + err));
 	  	}
- 			console.log("\n=======================================================\n");
+ 			console.log(chalk.red("\n=======================================================\n"));
  			logData += "\r\n=======================================================\r\n";
 	 		 for(var i=0; i<data.tracks.items.length; i++){
 	 		 	if(data.tracks.items[i].name.toUpperCase() === songName.toUpperCase()){
-	 		 		console.log("\nSong Name: "+ data.tracks.items[i].name);
+	 		 		console.log(chalk.red.bold("\nSong Name: ")+ chalk.green.bold(data.tracks.items[i].name));
 	 		 		logData += "\r\nSong Name: "+ data.tracks.items[i].name;
-	 				console.log("Album: "+ data.tracks.items[i].album.name);
+	 				console.log(chalk.red.bold("Album: ")+ chalk.green.bold(data.tracks.items[i].album.name));
 	 				logData += "\r\nAlbum: "+ data.tracks.items[i].album.name;
-	 				console.log("Preview URL: "+ data.tracks.items[i].preview_url);
+	 				console.log(chalk.red.bold("Preview URL: ")+ chalk.green.bold(data.tracks.items[i].preview_url));
 	 				logData += "\r\nPreview URL: "+ data.tracks.items[i].preview_url;
-	 				console.log("Artists: ");
+	 				console.log(chalk.red.bold("Artists: "));
 	 				logData += "\r\nArtists: ";
 	 				for(var j=0; j<data.tracks.items[i].artists.length;j++){
-	 					console.log(data.tracks.items[i].artists[j].name);
+	 					console.log(chalk.green.bold(data.tracks.items[i].artists[j].name));
 	 					logData += "\r\n" + data.tracks.items[i].artists[j].name;
 	 				}
 	 		 	}
 	 		 }
-	 		console.log("\n=======================================================\n");
+	 		console.log(chalk.red("\n=======================================================\n"));
 	 		logData += "\r\n=======================================================\r\n";
 	 		fs.appendFile("log.txt", logData, function(err) {
 				// If an error was experienced we say it.
