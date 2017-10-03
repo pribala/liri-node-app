@@ -38,7 +38,7 @@ LIRI is a Language Interpretation and Recognition Interface.It is a command line
   * Plot of the movie.
   * Actors in the movie.
 
-  If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+   If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 4. node liri.js do-what-it-says
 
