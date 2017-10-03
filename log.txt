@@ -1,0 +1,184 @@
+Last command executed
+node liri.js movie-this Mr.Nobody
+
+==============================================
+Title of the movie: Mr. Nobody
+The movie was released in: 2009
+IMDB Rating of the movie: 7.9
+Rotten Tomatoes Rating of the movie: 64%
+Country where the movie was produced: Belgium, Germany, Canada, France, USA, UK,Language of the movie: English, Mohawk
+Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+==============================================
+Last command executed
+node liri.js movie-this gone with the wind
+
+==============================================
+Title of the movie: Gone with the Wind
+The movie was released in: 1939
+IMDB Rating of the movie: 8.2
+Rotten Tomatoes Rating of the movie: 94%
+Country where the movie was produced: USA,Language of the movie: English
+Plot of the movie: A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods.
+Actors in the movie: Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes
+
+==============================================
+Last command executed
+node liri.js spotify-this-song The Sign
+
+=======================================================
+
+Song Name: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ace of Base
+Song Name: The Sign
+Album: Greatest Hits
+Preview URL: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ace of Base
+=======================================================
+Last command executed
+node liri.js spotify-this-song sorry
+
+=======================================================
+
+Song Name: Sorry
+Album: Purpose (Deluxe)
+Preview URL: null
+Artists: 
+Justin Bieber
+Song Name: Sorry
+Album: hopeless fountain kingdom (Deluxe)
+Preview URL: null
+Artists: 
+Halsey
+Song Name: Sorry
+Album: Sorry
+Preview URL: https://p.scdn.co/mp3-preview/834f1544759830a460ac10829b736dec2163cb8a?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Nothing But Thieves
+Song Name: Sorry
+Album: HNDRXX
+Preview URL: https://p.scdn.co/mp3-preview/924630374eb8af6c68ddea4d60cd88c52a89a776?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Future
+Song Name: Sorry
+Album: Silhouettes
+Preview URL: null
+Artists: 
+Aquilo
+Song Name: Sorry
+Album: Sorry
+Preview URL: https://p.scdn.co/mp3-preview/66a67af9adea359ed0e177b88cc0b7398fca00bd?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Colin & Caroline
+=======================================================
+Last command executed
+node liri.js my-tweets
+
+=======================================================
+#NationalPoetryDay
+life is beautiful but it doesn't last long,
+so enjoy it while it's here, don't wait till it's gone
+Thu Sep 28 16:48:10 +0000 2017
+adorable seal pups, San Diego, CA https://t.co/sIJ03WWCFb
+Thu Sep 28 16:35:43 +0000 2017
+awesome day at Grounds for Sculpture, Hamilton, NJ https://t.co/InyoOwLMA7
+Thu Sep 28 16:31:01 +0000 2017
+successfully completed project 1 for the coding bootcamp.
+Thu Sep 28 16:27:26 +0000 2017
+
+=======================================================
+Last command executed
+node liri.js spotify-this-song I Want it That Way
+
+=======================================================
+
+Song Name: I Want It That Way
+Album: The Hits--Chapter One
+Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Backstreet Boys
+Song Name: I Want It That Way
+Album: The Essential Backstreet Boys
+Preview URL: https://p.scdn.co/mp3-preview/f9f504a705fcaaf2f24b004b629725451014ad6c?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Backstreet Boys
+Song Name: I Want It That Way
+Album: Millennium
+Preview URL: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Backstreet Boys
+Song Name: I Want It That Way
+Album: Covers Part IV
+Preview URL: https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Anthem Lights
+Song Name: I Want It That Way
+Album: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Manuel Costa
+Song Name: I Want It That Way
+Album: 90 Sweet 90s Hits!
+Preview URL: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Backstreet Boys
+Song Name: I Want It That Way
+Album: Punk Goes Pop
+Preview URL: null
+Artists: 
+Dynamite Boy
+Song Name: I Want It That Way
+Album: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/101776fe4fc24aac543f6b4c5aa4273ac9d2dcc4?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Kyle Olthoff
+Destiny Jenkins
+Song Name: I Want It That Way
+Album: New Acoustic Sessions, Vol. 3
+Preview URL: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Boyce Avenue
+Song Name: I Want It That Way
+Album: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Landon Austin & Julia Sheer
+Song Name: I Want It That Way
+Album: I Want It That Way
+Preview URL: null
+Artists: 
+Steel Panther
+Song Name: I Want It That Way
+Album: NOW That's What I Call 90s Pop
+Preview URL: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Backstreet Boys
+Song Name: I Want It That Way
+Album: NKOTBSB
+Preview URL: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Backstreet Boys
+Song Name: I Want It That Way
+Album: Selfies on Kodachrome
+Preview URL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Scott Bradlee's Postmodern Jukebox
+Shoshana Bean
+Song Name: I Want It That Way
+Album: PMJ Is For Lovers: The Love Song Collection
+Preview URL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Scott Bradlee's Postmodern Jukebox
+Shoshana Bean
+Song Name: I Want It That Way
+Album: I Want It That Way
+Preview URL: https://p.scdn.co/mp3-preview/cba62099b5bec2bc9244aaeaba0422556f6df04e?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Jason Chen
+Joseph Vincent
+=======================================================
