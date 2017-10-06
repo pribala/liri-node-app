@@ -210,3 +210,292 @@ Artists:
 Scott Bradlee's Postmodern Jukebox
 Shoshana Bean
 =======================================================
+Last command executed
+node liri.js spotify-this-song the shape of you
+
+=======================================================
+
+Song Name: The Shape Of You
+Album: Picking Up The Pieces
+Preview URL: null
+Artists: 
+Jewel
+Song Name: The Shape Of You
+Album: The Shape Of You
+Preview URL: null
+Artists: 
+Jewel
+=======================================================
+Last command executed
+node liri.js spotify-this-song american oxygen
+
+=======================================================
+
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: null
+Artists: 
+X Ambassadors
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: null
+Artists: 
+Rihanna
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.5
+Preview URL: https://p.scdn.co/mp3-preview/3934f4e82b2bc6b3d7ff512c6980180790f1a2e3?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.3
+Preview URL: https://p.scdn.co/mp3-preview/8544928f9fd5a12d86ebf2824260acea61a2a3d9?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.2
+Preview URL: https://p.scdn.co/mp3-preview/b1dd9dccdc6178696aa138ce5aa9265440826733?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Instrumental Megamix Vol.8
+Preview URL: https://p.scdn.co/mp3-preview/0a5557be0166e09b12813eb622a0ba6c694d6ce1?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.8
+Preview URL: https://p.scdn.co/mp3-preview/b93e7176d525db3e76458a0540831033ffc35054?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/04b22d2a8ea50573967cdf97658c43273bcd5790?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Matt Beilis
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/abe2a2625cbae7bbcbf9c42b63c097266b88aa1f?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+TeraBrite
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/056409e57466608202d240f6c31db665894f47ad?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ana Free
+London Ellis
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/c0ecda2c1d9ccfd850d5c4ffc0e425b0062126e2?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Kelly Rida
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.1
+Preview URL: https://p.scdn.co/mp3-preview/b6fd0587fbe1bcf3b52f8eb41cf74a8e626fc976?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Cover Sessions, Vol. 1
+Preview URL: https://p.scdn.co/mp3-preview/c8139ae17b35dc7f5851a025bc8809bc9bd20ffe?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Emma Heesters
+=======================================================
+Last command executed
+node liri.js spotify-this-song american oxygen
+
+=======================================================
+
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: No preview link returned
+Artists: 
+X Ambassadors
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: No preview link returned
+Artists: 
+Rihanna
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.5
+Preview URL: https://p.scdn.co/mp3-preview/3934f4e82b2bc6b3d7ff512c6980180790f1a2e3?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.3
+Preview URL: https://p.scdn.co/mp3-preview/8544928f9fd5a12d86ebf2824260acea61a2a3d9?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.2
+Preview URL: https://p.scdn.co/mp3-preview/b1dd9dccdc6178696aa138ce5aa9265440826733?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Instrumental Megamix Vol.8
+Preview URL: https://p.scdn.co/mp3-preview/0a5557be0166e09b12813eb622a0ba6c694d6ce1?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.8
+Preview URL: https://p.scdn.co/mp3-preview/b93e7176d525db3e76458a0540831033ffc35054?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/04b22d2a8ea50573967cdf97658c43273bcd5790?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Matt Beilis
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/abe2a2625cbae7bbcbf9c42b63c097266b88aa1f?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+TeraBrite
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/056409e57466608202d240f6c31db665894f47ad?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ana Free
+London Ellis
+Song Name: American Oxygen
+Album: American Oxygen
+Preview URL: https://p.scdn.co/mp3-preview/c0ecda2c1d9ccfd850d5c4ffc0e425b0062126e2?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Kelly Rida
+Song Name: American Oxygen
+Album: Guitar and Piano Megamix Vol.1
+Preview URL: https://p.scdn.co/mp3-preview/b6fd0587fbe1bcf3b52f8eb41cf74a8e626fc976?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Joanna and Alexandra
+Song Name: American Oxygen
+Album: Cover Sessions, Vol. 1
+Preview URL: https://p.scdn.co/mp3-preview/c8139ae17b35dc7f5851a025bc8809bc9bd20ffe?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Emma Heesters
+=======================================================
+Last command executed
+node liri.js spotify-this-song sorry
+
+=======================================================
+
+Song Name: Sorry
+Album: Purpose (Deluxe)
+Preview URL: No preview link returned
+Artists: 
+Justin Bieber
+Song Name: Sorry
+Album: hopeless fountain kingdom (Deluxe)
+Preview URL: No preview link returned
+Artists: 
+Halsey
+Song Name: Sorry
+Album: Sorry
+Preview URL: https://p.scdn.co/mp3-preview/834f1544759830a460ac10829b736dec2163cb8a?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Nothing But Thieves
+Song Name: Sorry
+Album: HNDRXX
+Preview URL: https://p.scdn.co/mp3-preview/924630374eb8af6c68ddea4d60cd88c52a89a776?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Future
+Song Name: Sorry
+Album: Silhouettes
+Preview URL: No preview link returned
+Artists: 
+Aquilo
+Song Name: Sorry
+Album: Sorry
+Preview URL: https://p.scdn.co/mp3-preview/66a67af9adea359ed0e177b88cc0b7398fca00bd?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Colin & Caroline
+=======================================================
+Last command executed
+node liri.js spotify-this-song The Sign
+
+=======================================================
+
+Song Name: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ace of Base
+Song Name: The Sign
+Album: Greatest Hits
+Preview URL: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ace of Base
+=======================================================
+Last command executed
+node liri.js spotify-this-song the shape of you
+
+=======================================================
+
+Song Name: The Shape Of You
+Album: Picking Up The Pieces
+Preview URL: No preview link returned
+Artists: 
+Jewel
+Song Name: The Shape Of You
+Album: The Shape Of You
+Preview URL: No preview link returned
+Artists: 
+Jewel
+=======================================================
+Last command executed
+node liri.js spotify-this-song shape of you
+
+=======================================================
+
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/84462d8e1e4d0f9e5ccd06f0da390f65843774a2?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ed Sheeran
+Song Name: Shape of You
+Album: ÷ (Deluxe)
+Preview URL: https://p.scdn.co/mp3-preview/84462d8e1e4d0f9e5ccd06f0da390f65843774a2?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Ed Sheeran
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/752d58f11d845a4462a7d2878ce35757be8906b9?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Fame on Fire
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/0224372e48dec8ceba1c39f6902f5bc3853f7980?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+NateWantsToBattle
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/5a297a0651a302918e6006037507b41b6f294457?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+EZA
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/9230886e1420e31801c054ed4ab3734874241839?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Walk Off the Earth
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/a08e86287238962d3727417c095c68418a6e9ebf?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Secrets
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/7110f0c56a3b57876122ca6e24bd2846639f0f17?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Jacob Tillberg
+Song Name: Shape Of You
+Album: Punk Goes Pop, Vol. 7
+Preview URL: No preview link returned
+Artists: 
+Eat Your Heart Out
+Song Name: Shape of You
+Album: VSQ Performs the Hits of 2017
+Preview URL: https://p.scdn.co/mp3-preview/c037f16467609008f763113e0b9f16fa38c1ca39?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Vitamin String Quartet
+Song Name: Shape of You
+Album: Shape of You
+Preview URL: https://p.scdn.co/mp3-preview/6fb4997f807a17f0d1d9dd01899f2df5a23062d9?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Kiso
+=======================================================

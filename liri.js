@@ -174,10 +174,22 @@ function spotifyThis(spotify, songName) {
 	 		 	if(data.tracks.items[i].name.toUpperCase() === songName.toUpperCase()){
 	 		 		console.log(chalk.red.bold("\nSong Name: ")+ chalk.green.bold(data.tracks.items[i].name));
 	 		 		logData += "\r\nSong Name: "+ data.tracks.items[i].name;
-	 				console.log(chalk.red.bold("Album: ")+ chalk.green.bold(data.tracks.items[i].album.name));
-	 				logData += "\r\nAlbum: "+ data.tracks.items[i].album.name;
-	 				console.log(chalk.red.bold("Preview URL: ")+ chalk.green.bold(data.tracks.items[i].preview_url));
-	 				logData += "\r\nPreview URL: "+ data.tracks.items[i].preview_url;
+	 				//console.log(chalk.red.bold("Album: ")+ chalk.green.bold(data.tracks.items[i].album.name));
+	 				//logData += "\r\nAlbum: "+ data.tracks.items[i].album.name;
+	 				if(data.tracks.items[i].album.name===null){
+	 					console.log(chalk.red.bold("Album: ")+ chalk.green.bold("No album name returned"));
+	 					logData += "\r\nAlbum: "+ "No album name returned";
+	 				}else{
+	 					console.log(chalk.red.bold("Album: ")+ chalk.green.bold(data.tracks.items[i].album.name));
+	 					logData += "\r\nAlbum: "+ data.tracks.items[i].album.name;
+	 				}
+	 				if(data.tracks.items[i].preview_url===null){
+	 					console.log(chalk.red.bold("Preview URL: ")+ chalk.green.bold("No preview link returned"));
+	 					logData += "\r\nPreview URL: "+	"No preview link returned";
+	 				}else{
+	 					console.log(chalk.red.bold("Preview URL: ")+ chalk.green.bold(data.tracks.items[i].preview_url));
+	 					logData += "\r\nPreview URL: "+ data.tracks.items[i].preview_url;
+	 				}
 	 				console.log(chalk.red.bold("Artists: "));
 	 				logData += "\r\nArtists: ";
 	 				for(var j=0; j<data.tracks.items[i].artists.length;j++){
