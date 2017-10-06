@@ -1,17 +1,11 @@
 // Include the request npm package
 var request = require("request");
-
 // Include the twitter npm package, spotify npm package and keys.js
 var Twitter = require('twitter');
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
-
-// Include fs and chalk package
 var fs = require("fs");
 const chalk = require('chalk');
-
-// Use the inquirer package to take in user inputs
-var inquirer = require("inquirer");
 
 var consumerKey = keys.twitterKeys.consumer_key;
 var consumerSecret = keys.twitterKeys.consumer_secret;
@@ -28,56 +22,37 @@ var client = new Twitter({
   access_token_secret: accessTokenSecret
 });
 
-// Add spotify credentials for user authentication
 var spotify = new Spotify({
   id: id,
   secret: secret
 });
 
-inquirer.prompt([
-      {
-      	type: "list",
-        name: "action",
-        message: "What would you like LIRI to do?",
-        choices:["movie-this", "my-tweets", "spotify-this-song", "do-what-it-says"]
-      }]).then(function(answers) {
-			switch(answers.action) {
-				case "movie-this":
-					inquirer.prompt([
-					{
-						type: "input",
-						name: "movieName",
-						message: "Enter the movie name"
-					}]).then(function(result){
-							if(result.movieName.length>0){
-								movieDetails(result.movieName);
-							}else{
-								movieDetails("Mr.Nobody");
-							}	
-					});
-					break;
-				case "my-tweets":
-					myTweets(client);
-					break;
-				case "spotify-this-song":
-					inquirer.prompt([
-					{
-						type: "input",
-						name: "songName",
-						message: "Enter the song name"
-					}]).then(function(results){
-							if(results.songName.length>0){
-								spotifyThis(spotify, results.songName);
-							}else{
-								spotifyThis(spotify, "The Sign");
-							}	
-					});
-					break;	
-				case "do-what-it-says":
-					readData();
-					break;
-			}
-		});
+var action = process.argv[2];
+
+switch(action) {
+	case "movie-this":
+		var movieName = process.argv.slice(3);
+		if(movieName.length>0){
+			movieDetails(movieName.join(" "));
+		}else {
+			movieDetails("Mr.Nobody");
+		}
+		break;
+	case "my-tweets":
+		myTweets(client);
+		break;
+	case "spotify-this-song":
+		var songName = process.argv.slice(3);
+		if(songName.length>0){
+			spotifyThis(spotify, songName.join(" "));
+		}else {
+			spotifyThis(spotify, "The Sign");
+		}
+		break;	
+	case "do-what-it-says":
+		readData();
+		break;
+}
 
 function movieDetails(name){
 	// Run a request to the OMDB API with the movie specified

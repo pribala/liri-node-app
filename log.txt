@@ -12,18 +12,62 @@ Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 
 ==============================================
 Last command executed
-node liri.js movie-this armageddon
+node liri.js movie-this gone with the wind
 
 ==============================================
-Title of the movie: Armageddon
-The movie was released in: 1998
-IMDB Rating of the movie: 6.6
-Rotten Tomatoes Rating of the movie: 39%
-Country where the movie was produced: USA,Language of the movie: English, Russian, Indonesian
-Plot of the movie: After discovering that an asteroid the size of Texas is going to impact Earth in less than a month, N.A.S.A. recruits a misfit team of deep core drillers to save the planet.
-Actors in the movie: Bruce Willis, Billy Bob Thornton, Ben Affleck, Liv Tyler
+Title of the movie: Gone with the Wind
+The movie was released in: 1939
+IMDB Rating of the movie: 8.2
+Rotten Tomatoes Rating of the movie: 94%
+Country where the movie was produced: USA,Language of the movie: English
+Plot of the movie: A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods.
+Actors in the movie: Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes
 
 ==============================================
+Last command executed
+node liri.js my-tweets
+
+=======================================================
+Nature is majestic
+Wed Oct 04 17:16:06 +0000 2017
+music is pure joy
+Wed Oct 04 17:14:16 +0000 2017
+Fill your heart with love not hate.
+Wed Oct 04 17:13:18 +0000 2017
+World is a gift bestowed on us, take care of it.
+Wed Oct 04 17:12:44 +0000 2017
+My best friend is the one who brings out the best in me.
+Wed Oct 04 17:10:30 +0000 2017
+Walking with a friend in the dark is better than walking alone in the light.
+Wed Oct 04 17:09:44 +0000 2017
+enjoying the class
+Wed Oct 04 17:07:45 +0000 2017
+Cool weather is on its way. Brrrr.........................
+Wed Oct 04 17:02:09 +0000 2017
+Hayrides and pumpkins.
+Wed Oct 04 17:01:08 +0000 2017
+Season for apple picking.
+Wed Oct 04 17:00:40 +0000 2017
+time for a coffee break
+Wed Oct 04 16:59:17 +0000 2017
+Leaves are falling, softly floating, gently to the ground.
+Wed Oct 04 16:58:25 +0000 2017
+super excited about Halloween
+Wed Oct 04 16:56:34 +0000 2017
+enjoying a beautiful fall day
+Wed Oct 04 16:55:45 +0000 2017
+#NationalPoetryDay
+life is beautiful but it doesn't last long,
+so enjoy it while it's here, don't wait till it's gone
+Thu Sep 28 16:48:10 +0000 2017
+adorable seal pups, San Diego, CA https://t.co/sIJ03WWCFb
+Thu Sep 28 16:35:43 +0000 2017
+awesome day at Grounds for Sculpture, Hamilton, NJ https://t.co/InyoOwLMA7
+Thu Sep 28 16:31:01 +0000 2017
+successfully completed project 1 for the coding bootcamp.
+Thu Sep 28 16:27:26 +0000 2017
+
+=======================================================
 Last command executed
 node liri.js spotify-this-song The Sign
 
@@ -75,22 +119,6 @@ Album: Sorry
 Preview URL: https://p.scdn.co/mp3-preview/66a67af9adea359ed0e177b88cc0b7398fca00bd?cid=9dd74f08d4ea4c4f95990fce9780f885
 Artists: 
 Colin & Caroline
-=======================================================
-Last command executed
-node liri.js my-tweets
-
-=======================================================
-#NationalPoetryDay
-life is beautiful but it doesn't last long,
-so enjoy it while it's here, don't wait till it's gone
-Thu Sep 28 16:48:10 +0000 2017
-adorable seal pups, San Diego, CA https://t.co/sIJ03WWCFb
-Thu Sep 28 16:35:43 +0000 2017
-awesome day at Grounds for Sculpture, Hamilton, NJ https://t.co/InyoOwLMA7
-Thu Sep 28 16:31:01 +0000 2017
-successfully completed project 1 for the coding bootcamp.
-Thu Sep 28 16:27:26 +0000 2017
-
 =======================================================
 Last command executed
 node liri.js spotify-this-song I Want it That Way
@@ -170,15 +198,15 @@ Artists:
 Scott Bradlee's Postmodern Jukebox
 Shoshana Bean
 Song Name: I Want It That Way
-Album: PMJ Is For Lovers: The Love Song Collection
-Preview URL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=9dd74f08d4ea4c4f95990fce9780f885
-Artists: 
-Scott Bradlee's Postmodern Jukebox
-Shoshana Bean
-Song Name: I Want It That Way
 Album: I Want It That Way
 Preview URL: https://p.scdn.co/mp3-preview/cba62099b5bec2bc9244aaeaba0422556f6df04e?cid=9dd74f08d4ea4c4f95990fce9780f885
 Artists: 
 Jason Chen
 Joseph Vincent
+Song Name: I Want It That Way
+Album: PMJ Is For Lovers: The Love Song Collection
+Preview URL: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=9dd74f08d4ea4c4f95990fce9780f885
+Artists: 
+Scott Bradlee's Postmodern Jukebox
+Shoshana Bean
 =======================================================
